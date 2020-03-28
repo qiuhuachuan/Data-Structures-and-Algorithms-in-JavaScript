@@ -1,6 +1,6 @@
 import Node from "../utils.Node.js";
 
-class LinkedNode {
+class SinglyLinkedList {
   constructor() {
     this.head = null;
     this.length = 0;
