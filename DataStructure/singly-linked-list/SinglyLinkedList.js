@@ -8,7 +8,7 @@ class SinglyLinkedList {
 
   append(data) {
     // 1. 根据新元素创建节点
-    const newNode = new Node();
+    const newNode = new Node(data);
 
     // 2. 判断链表是否为空
     if (this.head === null) {
