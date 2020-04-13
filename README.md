@@ -11,13 +11,15 @@
 
 ##### 1.1.1.1 增加
 
-append(data)：向链表尾部添加一个新的项
-insert(index, data)：在链表的特定位置插入一个新的项
+- append(data)：向链表尾部添加一个新的项
+
+- insert(index, data)：在链表的特定位置插入一个新的项
 
 ##### 1.1.1.2 查询
 
-get(index)：获取对应位置的元素
-indexOf(data)：返回元素在链表中的索引。如果链表中没有该元素，返回-1
+- get(index)：获取对应位置的元素
+
+- indexOf(data)：返回元素在链表中的索引。如果链表中没有该元素，返回-1
 
 ##### 1.1.1.3 更新
 
@@ -25,14 +27,17 @@ update(index, data)：更新某个位置的元素
 
 ##### 1.1.1.4 删除
 
-removeAt(index)：从链表的特定位置移除一个项
-remove(data)：移除特定元素的那一项
+- removeAt(index)：从链表的特定位置移除一个项
+
+- remove(data)：移除特定元素的那一项
 
 ##### 1.1.1.5 其他
 
-isEmpty()：检查链表是否为空
-size()：返回链表中元素的个数
-toString()：将链表中的元素拼接成字符串返回
+- isEmpty()：检查链表是否为空
+
+- size()：返回链表中元素的个数
+
+- toString()：将链表中的元素拼接成字符串返回
 
 ## 2. Algorithms
 
