@@ -1,4 +1,4 @@
-import Node from "../utils.Node.js";
+import { Node } from "../utils/Node.js";
 
 class SinglyLinkedList {
   constructor() {
@@ -170,3 +170,7 @@ class SinglyLinkedList {
     }
   }
 }
+
+let singlyLinkedList = new SinglyLinkedList();
+singlyLinkedList.append(6);
+console.log(singlyLinkedList.toString());
